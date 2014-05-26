@@ -2,9 +2,9 @@ Compile = python3
 file = setup.py
 flag = build_ext --inplace
 
-all: build
-
+all:
+	build
 build:
 	$(Compile) $(file) $(flag)
 clean:
-	-rm *.so *.c build -rf
+	-rm *.so *.c *.html build -rf
