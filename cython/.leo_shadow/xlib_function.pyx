@@ -1,3 +1,6 @@
+#@+leo-ver=4-thin
+#@+node:kmol.20140527201931.1535:@shadow lib_function.pyx
+#@@language cython
 def say_hello(name=None):
     '''Tests calling C function in pyx.
 
@@ -17,3 +20,6 @@ cdef say_hello_in_c(char *name='World'):
 cpdef say_hello_by_cpdef(char *name='World'):
     '''Implements a function by cpdef.'''
     return 'Hello, %s!' % name
+#@nonl
+#@-node:kmol.20140527201931.1535:@shadow lib_function.pyx
+#@-leo
