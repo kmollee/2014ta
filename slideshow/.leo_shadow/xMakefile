@@ -1,0 +1,15 @@
+#--unknown-language--@+leo-ver=4-thin
+#--unknown-language--@+node:kmol.20140527201931.1543:@shadow Makefile
+#--unknown-language--@@language unknown_language
+input = w14.md
+output =w14.html
+
+html:
+	#pandoc --template impress-template.html -V impress-url=impress.js -s -t html5 --section-divs -o $(output) $(input)
+	#pandoc $(input) -o $(output) -t revealjs -s
+	pandoc $(input) -o $(output) -t dzslides -s
+clean:
+	rm *.html
+#--unknown-language--@nonl
+#--unknown-language--@-node:kmol.20140527201931.1543:@shadow Makefile
+#--unknown-language--@-leo

@@ -1,15 +1,35 @@
+<!--@+leo-ver=4-thin-->
+<!--@+node:kmol.20140527201931.1544:@shadow w14.html-->
+<!--@@language xml-->
+<!--@@tabwidth -4-->
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1546:head-->
 <!DOCTYPE html>
 <head>
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1547:meta-->
 
 <meta charset="utf-8">
   <meta name="author" content="Lee" />
   
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1547:meta-->
+<!--@+node:kmol.20140527201931.1548:meta-->
 <meta name="dcterms.date" content="2014-05-26" />
   
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1548:meta-->
+<!--@+node:kmol.20140527201931.1549:title-->
 <title>CD w14</title>
   
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1549:title-->
+<!--@+node:kmol.20140527201931.1550:style-->
 <style type="text/css">code{white-space: pre;}</style>
   
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1550:style-->
+<!--@+node:kmol.20140527201931.1551:style-->
 <style type="text/css">
 table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
   margin: 0; padding: 0; vertical-align: baseline; border: none; }
@@ -29,6 +49,8 @@ code > span.al { color: #ff0000; font-weight: bold; }
 code > span.fu { color: #06287e; }
 code > span.er { color: #ff0000; font-weight: bold; }
   </style>
+<!--@-node:kmol.20140527201931.1551:style-->
+<!--@+node:kmol.20140527201931.1552:style-->
 <style>
   html { background-color: black; }
   body { background-color: white; border-radius: 12px}
@@ -100,104 +122,272 @@ code > span.er { color: #ff0000; font-weight: bold; }
   /* The items to-be-selected */
   .incremental > *[aria-selected] ~ * { opacity: 0.2; }
 </style>
+<!--@-node:kmol.20140527201931.1552:style-->
+<!--@-others-->
 </head>
+<!--@-node:kmol.20140527201931.1546:head-->
+<!--@+node:kmol.20140527201931.1553:body-->
 <body>
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1554:h1-->
 
 <section>
   <h1 class="title">CD w14</h1>
   
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1554:h1-->
+<!--@+node:kmol.20140527201931.1555:h2-->
 <h2 class="author">Lee</h2>
   
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1555:h2-->
+<!--@+node:kmol.20140527201931.1556:h3-->
 <h3 class="date">May 26, 2014</h3>
 </section>
 <section id="weblink自動組立" class="slide level1">
+<!--@-node:kmol.20140527201931.1556:h3-->
+<!--@+node:kmol.20140527201931.1557:h1-->
 <h1>weblink自動組立</h1>
+<!--@-node:kmol.20140527201931.1557:h1-->
+<!--@+node:kmol.20140527201931.1558:ul-->
 <ul>
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1559:li-->
 
 <li>組立基本需要</li>
+<!--@-node:kmol.20140527201931.1559:li-->
+<!--@+node:kmol.20140527201931.1560:li-->
 <li>參考</li>
+<!--@-node:kmol.20140527201931.1560:li-->
+<!--@+node:kmol.20140527201931.1561:li-->
 <li>約束</li>
+<!--@-node:kmol.20140527201931.1561:li-->
+<!--@-others-->
 </ul>
 </section>
 <section id="組立基本需要" class="slide level1">
+<!--@-node:kmol.20140527201931.1558:ul-->
+<!--@+node:kmol.20140527201931.1562:h1-->
 <h1>組立基本需要</h1>
+<!--@-node:kmol.20140527201931.1562:h1-->
+<!--@+node:kmol.20140527201931.1563:ul-->
 <ul>
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1564:li-->
 
 <li>asm file</li>
+<!--@-node:kmol.20140527201931.1564:li-->
+<!--@+node:kmol.20140527201931.1565:li-->
 <li>part file</li>
+<!--@-node:kmol.20140527201931.1565:li-->
+<!--@-others-->
 </ul>
+<!--@-node:kmol.20140527201931.1563:ul-->
+<!--@+node:kmol.20140527201931.1566:pre-->
 <pre class="sourceCode javascript">
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1567:code-->
 <code class="sourceCode javascript">
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1568:span-->
 <span class="kw">var</span> descr = 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1568:span-->
+<!--@+node:kmol.20140527201931.1569:span-->
 <span class="fu">pfcCreate</span>(
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1569:span-->
+<!--@+node:kmol.20140527201931.1570:span-->
 <span class="st">&quot;pfcModelDescriptor&quot;</span>).
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1570:span-->
+<!--@+node:kmol.20140527201931.1571:span-->
 <span class="fu">CreateFromFileName</span>(
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1571:span-->
+<!--@+node:kmol.20140527201931.1572:span-->
 <span class="st">&quot;v:/home/lego/man/&quot;</span> + part2);
     
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1572:span-->
+<!--@+node:kmol.20140527201931.1573:span-->
 <span class="co">//嘗試從 session 中取得 part2</span>
     
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1573:span-->
+<!--@+node:kmol.20140527201931.1574:span-->
 <span class="kw">var</span> componentModel = 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1574:span-->
+<!--@+node:kmol.20140527201931.1575:span-->
 <span class="ot">session</span>.
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1575:span-->
+<!--@+node:kmol.20140527201931.1576:span-->
 <span class="fu">GetModelFromDescr</span>(descr);
     
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1576:span-->
+<!--@+node:kmol.20140527201931.1577:span-->
 <span class="co">//取得失敗 status null</span>
     
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1577:span-->
+<!--@+node:kmol.20140527201931.1578:span-->
 <span class="kw">if</span> (componentModel == 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1578:span-->
+<!--@+node:kmol.20140527201931.1579:span-->
 <span class="kw">null</span>) {
         
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1579:span-->
+<!--@+node:kmol.20140527201931.1580:span-->
 <span class="ot">document</span>.
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1580:span-->
+<!--@+node:kmol.20140527201931.1581:span-->
 <span class="fu">write</span>(
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1581:span-->
+<!--@+node:kmol.20140527201931.1582:span-->
 <span class="st">&quot;在session 取得不到零件&quot;</span> + part2);
         
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1582:span-->
+<!--@+node:kmol.20140527201931.1583:span-->
 <span class="co">//從路逕取得 part2</span>
         componentModel = 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1583:span-->
+<!--@+node:kmol.20140527201931.1584:span-->
 <span class="ot">session</span>.
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1584:span-->
+<!--@+node:kmol.20140527201931.1585:span-->
 <span class="fu">RetrieveModel</span>(descr);
         
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1585:span-->
+<!--@+node:kmol.20140527201931.1586:span-->
 <span class="co">//仍然取得失敗 表示無此零件</span>
         
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1586:span-->
+<!--@+node:kmol.20140527201931.1587:span-->
 <span class="kw">if</span> (componentModel == 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1587:span-->
+<!--@+node:kmol.20140527201931.1588:span-->
 <span class="kw">null</span>) {
             
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1588:span-->
+<!--@+node:kmol.20140527201931.1589:span-->
 <span class="co">// 此發錯誤</span>
             
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1589:span-->
+<!--@+node:kmol.20140527201931.1590:span-->
 <span class="kw">throw</span> 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1590:span-->
+<!--@+node:kmol.20140527201931.1591:span-->
 <span class="kw">new</span> 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1591:span-->
+<!--@+node:kmol.20140527201931.1592:span-->
 <span class="fu">Error</span>(
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1592:span-->
+<!--@+node:kmol.20140527201931.1593:span-->
 <span class="dv">0</span>, 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1593:span-->
+<!--@+node:kmol.20140527201931.1594:span-->
 <span class="st">&quot;Current componentModel is not loaded.&quot;</span>);
         }
     }
     
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1594:span-->
+<!--@+node:kmol.20140527201931.1595:span-->
 <span class="co">//假如 part2 有取得到</span>
     
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1595:span-->
+<!--@+node:kmol.20140527201931.1596:span-->
 <span class="kw">if</span> (componentModel != 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1596:span-->
+<!--@+node:kmol.20140527201931.1597:span-->
 <span class="kw">void</span> 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1597:span-->
+<!--@+node:kmol.20140527201931.1598:span-->
 <span class="kw">null</span>) {
         
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1598:span-->
+<!--@+node:kmol.20140527201931.1599:span-->
 <span class="co">//將part2 放入 組立檔案, part2 在組立檔案裡面為 組立 component</span>
         
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1599:span-->
+<!--@+node:kmol.20140527201931.1600:span-->
 <span class="kw">var</span> asmcomp = 
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1600:span-->
+<!--@+node:kmol.20140527201931.1601:span-->
 <span class="ot">assembly</span>.
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1601:span-->
+<!--@+node:kmol.20140527201931.1602:span-->
 <span class="fu">AssembleComponent</span>(componentModel, transf);
     }
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1602:span-->
+<!--@-others-->
 </code>
+<!--@nonl-->
+<!--@-node:kmol.20140527201931.1567:code-->
+<!--@-others-->
 </pre>
 </section>
 <section id="參考" class="slide level1">
+<!--@-node:kmol.20140527201931.1566:pre-->
+<!--@+node:kmol.20140527201931.1603:h1-->
 <h1>參考</h1>
+<!--@-node:kmol.20140527201931.1603:h1-->
+<!--@+node:kmol.20140527201931.1604:ul-->
 <ul>
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1605:li-->
 
 <li>axis</li>
+<!--@-node:kmol.20140527201931.1605:li-->
+<!--@+node:kmol.20140527201931.1606:li-->
 <li>plane</li>
+<!--@-node:kmol.20140527201931.1606:li-->
+<!--@-others-->
 </ul>
 </section>
 <section id="約束" class="slide level1">
+<!--@-node:kmol.20140527201931.1604:ul-->
+<!--@+node:kmol.20140527201931.1607:h1-->
 <h1>約束</h1>
+<!--@-node:kmol.20140527201931.1607:h1-->
+<!--@+node:kmol.20140527201931.1608:ul-->
 <ul>
+<!--@+others-->
+<!--@+node:kmol.20140527201931.1609:li-->
 
 <li>mate</li>
+<!--@-node:kmol.20140527201931.1609:li-->
+<!--@+node:kmol.20140527201931.1610:li-->
 <li>align</li>
+<!--@-node:kmol.20140527201931.1610:li-->
+<!--@-others-->
 </ul>
 </section>
 <!-- {{{{ dzslides core
@@ -214,9 +404,13 @@ code > span.er { color: #ff0000; font-weight: bold; }
 #
 -->
 
+<!--@-node:kmol.20140527201931.1608:ul-->
+<!--@+node:kmol.20140527201931.1611:div-->
 <div id="progress-bar"></div>
 
 <!-- Default Style -->
+<!--@-node:kmol.20140527201931.1611:div-->
+<!--@+node:kmol.20140527201931.1612:style-->
 <style>
   * { margin: 0; padding: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
   details { display: none; }
@@ -257,6 +451,8 @@ code > span.er { color: #ff0000; font-weight: bold; }
   }
 </style>
 
+<!--@-node:kmol.20140527201931.1612:style-->
+<!--@+node:kmol.20140527201931.1613:script-->
 <script>
   var Dz = {
     remoteWindows: [],
@@ -586,6 +782,8 @@ code > span.er { color: #ff0000; font-weight: bold; }
 </script>
 
 
+<!--@-node:kmol.20140527201931.1613:script-->
+<!--@+node:kmol.20140527201931.1614:script-->
 <script> // Helpers
   if (!Function.prototype.bind) {
     Function.prototype.bind = function (oThis) {
@@ -626,5 +824,11 @@ code > span.er { color: #ff0000; font-weight: bold; }
 
 </script>
 <!-- vim: set fdm=marker: }}} -->
+<!--@-node:kmol.20140527201931.1614:script-->
+<!--@-others-->
 </body>
+<!--@-node:kmol.20140527201931.1553:body-->
+<!--@-others-->
 </html>
+<!--@-node:kmol.20140527201931.1544:@shadow w14.html-->
+<!--@-leo-->
